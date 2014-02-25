@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Shipping Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculate Your Shipping Costs</h1>
+
+      <form id="shipping-info">
+        <div class="form-group">
+          <label for="starting-zip">Enter starting zip code:</label>
+          <input id="starting-zip" type="text">
+        </div>
+        <div class="form-group">
+          <label for="ending-zip">Enter ending zip code:</label>
+          <input id="ending-zip" type="text">
+        </div>
+        <div class="form-group">
+          <label for="weight">Enter weight in lbs:</label>
+          <input id="weight" type="text">
+        </div>
+        <button type="submit" class="btn">Enter</button>
+      </form>
+      
+       <div id="result">
+         <p><span class="result"></span></p>
+       </div> 
+    </div>
+  </body>
+</html>
